@@ -1,0 +1,78 @@
+#navBar {
+  background-color: white;
+}
+
+
+.bg{
+  height: 100%;
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/68704/pexels-photo-68704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  position:absolute;
+  background-repeat:no-repeat;
+  filter:blur(5px);
+  margin: 0;
+  z-index:-1;
+  background-attachment: fixed;
+}
+
+/*.bg-test{*/
+/*  height: 100%;*/
+/*  width: 100%;*/
+/*  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(4) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M40 45a5 5 0 110-10 5 5 0 010 10zM0 45a5 5 0 110-10 5 5 0 010 10zM0 5A5 5 0 110-5 5 5 0 010 5zm40 0a5 5 0 110-10 5 5 0 010 10z'  stroke-width='1' stroke='hsla(199, 98%, 48%, 1)' fill='none'/><path d='M20 25a5 5 0 110-10 5 5 0 010 10z'  stroke-width='1' stroke='hsla(339.6,82.2%,51.6%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");*/
+/*}*/
+
+.container-bg{
+  background-color: white;
+}
+
+.bg-test{
+  height: 100%;
+  width: 100%;
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='32' height='32' patternTransform='scale(8) rotate(70)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M37.657 10.343l-4.243 4.243m-2.828 2.828l-4.243 4.243m11.314 0l-4.243-4.243m-2.828-2.828l-4.243-4.243m-20.686 0l-4.243 4.243m-2.828 2.828l-4.243 4.243m11.314 0l-4.243-4.243m-2.828-2.828l-4.243-4.243'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(259, 59%, 59%, 0.08)' fill='none'/><path d='M16-8v6m0 4v6m8-8h-6m-4 0H8m8 24v6m0 4v6m8-8h-6m-4 0H8'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(340, 82%, 52%, 0.13)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,-192)' fill='url(%23a)'/></svg>");
+  background-size: cover;
+}
+
+.index-img {
+  height: 100%;
+  /*max-height: 600px;*/
+  width: 100%;
+  text-align: center;
+  /*max-width: 720px;*/
+}
+
+
+
+.head-title{
+  font-style: italic;
+  font-family: Gabriola;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+
+#homePage-subtitle{
+  font-style: italic;
+  font-family: Times New Roman;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
+#index-Page-footer{
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  line-height: 80px;
+  background-color: black;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.core-component-section{
+  margin-top: 20px;
+}
+
+.figure-section{
+  margin-top: 20px;
+}
